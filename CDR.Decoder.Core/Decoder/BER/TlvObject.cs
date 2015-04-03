@@ -61,7 +61,16 @@ namespace CDR.Decoder.BER
         public int ReadValue(Stream asnStream, int bytesToRead)
         {
             // TODO: Исключить чтение для типов Constructed, поставить проверку на null
-            _tagValue = new byte[bytesToRead];
+            try
+            {
+                _tagValue = new byte[bytesToRead];
+            }
+            catch (Exception ex)
+            {
+                
+               
+            }
+          
             return asnStream.Read((_tagValue as byte[]), 0, bytesToRead);
         }
 
@@ -113,6 +122,7 @@ namespace CDR.Decoder.BER
                 dumpWriter.WriteLine("</Primitive>");
             }
         }
+        //trac
 
         public override string ToString()
         {

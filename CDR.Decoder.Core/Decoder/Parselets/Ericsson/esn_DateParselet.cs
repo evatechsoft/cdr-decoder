@@ -15,12 +15,32 @@ namespace CDR.Decoder.Parselets
         {
             if (value.Length == 3)
             {
-                DateTime time = new DateTime(value[0], value[1], value[2]);
+                DateTime time = new DateTime();
+                try
+                {
+                     time = new DateTime(value[0], value[1], value[2]);
+                }
+                catch (Exception ex)
+                {
+                    
+                    
+                }
+               
                 return time.ToString("yy.MM.dd");
             }
             else
             {
-                DateTime time = new DateTime(value[0] * 100 + value[1], value[2], value[3]);
+                DateTime time = new DateTime();
+                try
+                {
+                     time = new DateTime(value[0] * 100 + value[1], value[2], value[3]);
+                }
+                catch (Exception ex)
+                {
+                    
+                    
+                }
+               
                 return time.ToString("yyyy.MM.dd");
             }
         }

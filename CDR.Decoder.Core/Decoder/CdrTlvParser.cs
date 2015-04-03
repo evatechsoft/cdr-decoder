@@ -21,7 +21,11 @@ namespace CDR.Decoder
 
         private void ParseElement(CdrElement element)
         {
+            //ICdrElementDefinition elementDef = DefinitionProvider.FindDefinition(element.Path);
+            
+           // ICdrElementDefinition elementDef = DefinitionProvider.FindDefinition(element.Path.Replace("0.7.", ""));
             ICdrElementDefinition elementDef = DefinitionProvider.FindDefinition(element.Path);
+            //ICdrElementDefinition elementDef = DefinitionProvider.FindDefinition("33");
             if (elementDef != null)
             {
                 if (elementDef.Name.Length != 0)

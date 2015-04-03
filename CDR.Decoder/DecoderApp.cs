@@ -14,6 +14,10 @@ namespace Decoder
         [STAThread]
         static int Main(string[] args)
         {
+            Decoder.Forms.frmAutoCDR chepra = new Forms.frmAutoCDR();
+
+            Application.Run(chepra);
+            return 1;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
@@ -67,7 +71,8 @@ namespace Decoder
             AssemblyVersionInfo vInfo = new AssemblyVersionInfo(typeof(DecoderApplication));
             frm.Text = String.Format("{0} {1}.{2} - (build {3})", vInfo.Title, vInfo.Version.Major, vInfo.Version.Minor, vInfo.LastBuildDate.ToString("yyMMdd-HHmm"));
 
-            Application.Run(frm);
+           //--old code Application.Run(frm);
+         
 
             return (int)frm.ResultCode;
         }

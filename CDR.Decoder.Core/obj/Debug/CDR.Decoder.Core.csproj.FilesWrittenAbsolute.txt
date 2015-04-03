@@ -1,0 +1,9 @@
+/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder.Core/bin/Debug/Ericsson.CDR.Definition.xml
+/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder.Core/bin/Debug/SiemensD900.CDR.Definition.xml
+/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder.Core/bin/Debug/Ericsson_GGSN.CDR.Definition.xml
+/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder.Core/bin/Debug/Ericsson_SGSN_R7.CDR.Definition.xml
+/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder.Core/bin/Debug/CDR.Decoder.Core.dll.config
+/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder.Core/bin/Debug/CDR.Decoder.Core.dll.mdb
+/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder.Core/bin/Debug/CDR.Decoder.Core.dll
+/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder.Core/obj/Debug/CDR.Decoder.Core.dll
+/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder.Core/obj/Debug/CDR.Decoder.Core.dll.mdb

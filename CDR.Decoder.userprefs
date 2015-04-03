@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="CDR.Decoder/CDR.Decoder.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CDR.Decoder/Forms/frmAutoCDR.cs">
+    <Files>
+      <File FileName="CDR.Decoder/Forms/frmAutoCDR.cs" Line="27" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder/Forms/frmAutoCDR.cs" line="37" column="1" />
+      <Breakpoint file="/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder/Forms/frmAutoCDR.cs" line="192" column="1" />
+      <Breakpoint file="/home/chandanpasunoori/Desktop/FINAL CDR/CDR.Decoder/CDR.Decoder/Forms/frmAutoCDR.cs" line="88" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -112,12 +112,21 @@ namespace CDR.Decoder.BER   // Basic Encoding Rules
                 }
                 else
                 {
-                    int _readOffset = tlvObj.ReadValue(asnStream, tlvLength);
-                    offset += _readOffset;
-                    if (_readOffset != tlvLength)
+                    try
                     {
-                        return BerDecoderResult.Failed;
+                        int _readOffset = tlvObj.ReadValue(asnStream, tlvLength);
+                        offset += _readOffset;
+                        if (_readOffset != tlvLength)
+                        {
+                            return BerDecoderResult.Failed;
+                        }
                     }
+                    catch (System.Exception ex)
+                    {
+                        
+                        
+                    }
+                   
                 }
             }
             return procResult;
